@@ -20,11 +20,11 @@ https://2u-data-curriculum-team.s3.amazonaws.com/dataviz-classroom/v1.2/22-big-d
    ![image](https://user-images.githubusercontent.com/12514249/230746472-96078cf0-9a15-405c-8ca0-6cbff238ce4d.png)
 
 * What is the average price of a home for each year that has three bedrooms, three bathrooms, two floors, and is greater than or equal to 2,000 square feet? Round off your answer to two decimal places.
-* Ans:
+* 
    ![image](https://user-images.githubusercontent.com/12514249/230746487-626540d5-d2a7-4837-8fff-2d63dce45108.png)
 
 * What is the "view" rating for homes costing more than or equal to $350,000? Determine the run time for this query, and round off your answer to two decimal places.
-* Ans: 
+*  
   ![image](https://user-images.githubusercontent.com/12514249/230746497-5e817b0f-51e0-4ad7-aa0d-b4fd2b2811a4.png)
 
 * Cache your temporary table home_sales.
@@ -32,7 +32,7 @@ https://2u-data-curriculum-team.s3.amazonaws.com/dataviz-classroom/v1.2/22-big-d
 * Check if your temporary table is cached.
 
 * Using the cached data, run the query that filters out the view ratings with an average price of greater than or equal to $350,000. Determine the runtime and compare it to uncached runtime.
-* Ans:
+* 
    ![image](https://user-images.githubusercontent.com/12514249/230746524-3cb2ec95-407c-4ca2-b94e-2f85192cee91.png)
 
 * Partition by the "date_built" field on the formatted parquet home sales data.
@@ -40,7 +40,7 @@ https://2u-data-curriculum-team.s3.amazonaws.com/dataviz-classroom/v1.2/22-big-d
 * Create a temporary table for the parquet data.
 
 * Run the query that filters out the view ratings with an average price of greater than or equal to $350,000. Determine the runtime and compare it to uncached runtime.
-* Ans : 
+* 
    ![image](https://user-images.githubusercontent.com/12514249/230746558-2cf1068b-99bc-453c-ba75-7c107b2119f6.png)
 
 * Uncache the home_sales temporary table.
