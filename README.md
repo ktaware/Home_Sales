@@ -29,7 +29,7 @@ https://2u-data-curriculum-team.s3.amazonaws.com/dataviz-classroom/v1.2/22-big-d
 
 * What is the "view" rating for homes costing more than or equal to $350,000? Determine the run time for this query, and round off your answer to two decimal places.
 *  
-  
+  ![image](https://user-images.githubusercontent.com/12514249/230779388-3681ec4c-5cea-41a0-8293-6f6695df68af.png)
 
 
 * Cache your temporary table home_sales.
