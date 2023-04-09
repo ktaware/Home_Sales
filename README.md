@@ -19,15 +19,17 @@ https://2u-data-curriculum-team.s3.amazonaws.com/dataviz-classroom/v1.2/22-big-d
 
 * What is the average price of a home for each year it was built that has three bedrooms and three bathrooms? Round off your answer to two decimal places.
 * 
-   ![image](https://user-images.githubusercontent.com/12514249/230778643-82e8e0f3-1824-4eac-b61c-99c8519757fd.png)
+  ![image](https://user-images.githubusercontent.com/12514249/230779023-7490eb77-7598-4d23-b3bb-9003285d47ba.png)
+
 
 * What is the average price of a home for each year that has three bedrooms, three bathrooms, two floors, and is greater than or equal to 2,000 square feet? Round off your answer to two decimal places.
 * 
-   ![image](https://user-images.githubusercontent.com/12514249/230778705-d171b91d-536f-40ff-b606-a3330fdbfdc6.png)
+   ![image](https://user-images.githubusercontent.com/12514249/230779053-2924e57c-2ddd-4c9c-8abe-16b41e946e1a.png)
+
 
 * What is the "view" rating for homes costing more than or equal to $350,000? Determine the run time for this query, and round off your answer to two decimal places.
 *  
-  ![image](https://user-images.githubusercontent.com/12514249/230778751-e7d166eb-9521-4f68-8b43-61d5325d710e.png)
+  
 
 
 * Cache your temporary table home_sales.
@@ -36,7 +38,8 @@ https://2u-data-curriculum-team.s3.amazonaws.com/dataviz-classroom/v1.2/22-big-d
 
 * Using the cached data, run the query that filters out the view ratings with an average price of greater than or equal to $350,000. Determine the runtime and compare it to uncached runtime.
 * 
-   ![image](https://user-images.githubusercontent.com/12514249/230746524-3cb2ec95-407c-4ca2-b94e-2f85192cee91.png)
+   ![image](https://user-images.githubusercontent.com/12514249/230779277-75f108ce-7d1b-4fcb-9a54-fd3f59bda2f6.png)
+
 
 * Partition by the "date_built" field on the formatted parquet home sales data.
 
@@ -44,7 +47,8 @@ https://2u-data-curriculum-team.s3.amazonaws.com/dataviz-classroom/v1.2/22-big-d
 
 * Run the query that filters out the view ratings with an average price of greater than or equal to $350,000. Determine the runtime and compare it to uncached runtime.
 * 
-   ![image](https://user-images.githubusercontent.com/12514249/230746558-2cf1068b-99bc-453c-ba75-7c107b2119f6.png)
+   ![image](https://user-images.githubusercontent.com/12514249/230779232-f0ab2239-0b6d-4ef4-ba64-8d95671f5ba4.png)
+
 
 * Uncache the home_sales temporary table.
 
